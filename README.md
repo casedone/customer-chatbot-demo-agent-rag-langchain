@@ -14,21 +14,21 @@ This is a repo that we demo on our YouTube video [Tutorial - Build a Customer Co
 - Demo Showcase: Experience the chatbot in action, demonstrating its capability to manage customer interactions, perform small talks, and handle product inquiries seamlessly.
 
 ## Connect with Us:
-👍 Like | 🔗 Share | 📢 Subscribe 
-Follow us on [YouTube](https://www.youtube.com/@CaseDonebyAI), [LinkedIn](www.linkedin.com/company/casedonebyai), and [Facebook](https://www.facebook.com/casedonebyai/)! Look for *@casedonebyai*
+👍 Like | 🔗 Share | 📢 Subscribe    
+Follow us on [YouTube](https://www.youtube.com/@CaseDonebyAI), [LinkedIn](www.linkedin.com/company/casedonebyai), and [Facebook](https://www.facebook.com/casedonebyai/)! Look for *@casedonebyai*   
 💬 Comments? Questions? We value your feedback and look forward to engaging with you!
 
 ## Time in YouTube
-0:10 Scenario: Mock-up Coffee Shop
-0:40 RAG review and quick intro
-1:52 Coding session starts from here
-2:00 Documents needed for RAG
-7:23 RAG Step 1: Indexing and Saving to Chroma index
-14:43 RAG Step 2: Retrieval, Loading Chroma index, and Using Retriever
-21:26 In LangChain, Build LLM-based Agent and Register RAG tool in LangChain
-28:39 Launch and test chatbot demo interface with Gradio!
-37:56 Briefly seeing 'verbose' from LLM agent action
-39:20 Wrapping up and summary
+0:10 Scenario: Mock-up Coffee Shop   
+0:40 RAG review and quick intro   
+1:52 Coding session starts from here   
+2:00 Documents needed for RAG   
+7:23 RAG Step 1: Indexing and Saving to Chroma index   
+14:43 RAG Step 2: Retrieval, Loading Chroma index, and Using Retriever   
+21:26 In LangChain, Build LLM-based Agent and Register RAG tool in LangChain   
+28:39 Launch and test chatbot demo interface with Gradio!   
+37:56 Briefly seeing 'verbose' from LLM agent action   
+39:20 Wrapping up and summary   
 
 ## FYI:
 [RAG intro on our YouTube](https://youtube.com/playlist?list=PLP50mZI6LSxNNTNhavyvqONaUBkeRv1ZJ)
