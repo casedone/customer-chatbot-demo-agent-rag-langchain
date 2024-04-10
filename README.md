@@ -32,3 +32,14 @@ Follow us on [YouTube](https://www.youtube.com/@CaseDonebyAI), [LinkedIn](www.li
 
 ## FYI:
 [RAG intro on our YouTube](https://youtube.com/playlist?list=PLP50mZI6LSxNNTNhavyvqONaUBkeRv1ZJ)
+
+## NOTES
+<img width="332" alt="OpenAI API Key needs update" src="https://github.com/casedone/customer-chatbot-demo-agent-rag-langchain/assets/166577978/d45f1181-bb74-4989-9be9-d90fca866f90">
+
+This code section will not throw an error because we removed this file as it contains our secret OpenAI API key.
+
+What you need to do is to replace this with
+
+<code>openai_api_key="sk...."</code>
+
+where you get your key from OpenAI.
