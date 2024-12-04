@@ -1,7 +1,11 @@
 # customer-chatbot-demo-agent-rag-langchain
 
-# "Tutorial on building customer chatbot for coffee shop with Agent LLM and RAG"
+> This repo has been updated to use LangGraph instead of legacy LangChain's AgentExecutor. Additionally, Ollama is used instead of OpenAI. [Dec 4, 2024].
+
+"Tutorial on building customer chatbot for coffee shop with Agent LLM and RAG".
 This is a repo that we demo on our YouTube video [Tutorial - Build a Customer Contact Chatbot with Gen-AI: LangChain, Chroma, & Gradio](https://youtu.be/KFmPgeSCxRs)
+
+![UI Example](asset/UI%20Example.png)
 
 ## Why This Video:
 - Embark on this journey with us to explore the potential of Generative AI in enhancing customer service through an intelligent chatbot. Let's build, learn, and innovate together!
@@ -34,12 +38,10 @@ Follow us on [YouTube](https://www.youtube.com/@CaseDonebyAI), [LinkedIn](www.li
 [RAG intro on our YouTube](https://youtube.com/playlist?list=PLP50mZI6LSxNNTNhavyvqONaUBkeRv1ZJ)
 
 ## NOTES
-<img width="332" alt="OpenAI API Key needs update" src="https://github.com/casedone/customer-chatbot-demo-agent-rag-langchain/assets/166577978/d45f1181-bb74-4989-9be9-d90fca866f90">
-
-This code section will throw an error because we removed this file as it contains our secret OpenAI API key.
-
-What you need to do is to replace this with
-
-<code>openai_api_key="sk...."</code>
-
-where you get your key from OpenAI.
+1. Make sure you use the appropriate environment. You can install modules using `requirements.txt`.
+2. If you find an error about OpenAI, it could be that you need to specifcy OpenAI API key. Make a file called `openai_api_key` in `secret` folder and keep your key there.
+3. Ollama with Llama3.2-3B should be running. You can set up by:
+```shell
+ollama pull llama3.2
+ollama serve
+```
