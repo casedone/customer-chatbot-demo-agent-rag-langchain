@@ -64,7 +64,9 @@ def chat(message, history):
     log_messages(response)
     return response['messages'][-1].content
 
-demo = gr.ChatInterface(fn=chat)
+demo = gr.ChatInterface(fn=chat, title="Echo, the PlanetBucks Receptionist",
+                        description="Welcome to PlanetBucks, a virtual cafe filled with AI enthiusiasts!",
+                        examples=["What is the menu for today?", "What is the specialty coffee bean?", "What is the store information?"])
 
 if __name__ == "__main__":
     demo.launch(share=False)
