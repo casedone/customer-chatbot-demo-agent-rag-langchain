@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "customer-chatbot-demo-agent-rag-langchain"
+version = "0.1.0"
+description = "Chatbot with RAG emulating a virtual cafe"
+authors = ["Pisek <psk.light@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+gradio = "^5.8.0"
+langchain = "^0.3.9"
+langchain-ollama = "^0.2.1"
+langchain-chroma = "^0.1.4"
+langgraph = "^0.2.56"
+langchain-openai = "^0.2.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
